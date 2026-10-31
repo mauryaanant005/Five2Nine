@@ -8,6 +8,9 @@ backend/target
 backend/.idea
 backend/*.iml
 
+# Production secrets - never commit
+backend/src/main/resources/application-prod.properties
+
 # IntelliJ
 .idea
 *.iml
